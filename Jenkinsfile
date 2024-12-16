@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        TERRAFORM_VERSION = '1.5.0'  
+        PATH = "/var/jenkins_home/bin:$PATH"   
     }
 
     stages {
